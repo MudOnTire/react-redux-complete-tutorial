@@ -18,10 +18,7 @@ module.exports = {
       exclude: [
         path.resolve(__dirname, 'node_modules'),
       ],
-      loader: 'babel-loader',
-      query: {
-        presets: ['react']
-      }
+      loader: 'babel-loader'
     }]
   },
   plugins: [
